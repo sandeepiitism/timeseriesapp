@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiron DZ9</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <h1>Spindle Temp1 Prototype</h1>
+    <button id="fetchButton">Fetch Data</button>
+    
+    <div>
+        <h2>Live Results:</h2>
+        <p id="actualTemperature"></p>
+        <p id="forecastedTemperature"></p>
+        <p id="forecastedMinTemperature"></p>
+        <p id="forecastedMaxTemperature"></p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#fetchButton").click(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "/fetch_data",
+                    dataType: 'json', // Ensure data is parsed as JSON
+                    success: function(response) {
+                        $("#actualTemperature").text("Actual Temperature: " + response.actual_temperature);
+                        $("#forecastedTemperature").text("Forecasted Temperature: " + response.forecasted_temperature);
+                        $("#forecastedMinTemperature").text("Forecasted Min. Temperature: " + response.forecasted_min_temperature);
+                        $("#forecastedMaxTemperature").text("Forecasted Max. Temperature: " + response.forecasted_max_temperature);
+                    },
+                    error: function(error) {
+                        console.log("Error fetching data from the server:", error);
+                        $("#actualTemperature").text("Error fetching data from the server.");
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

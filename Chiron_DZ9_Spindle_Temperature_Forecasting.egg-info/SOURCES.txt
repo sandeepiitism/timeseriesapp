@@ -1,0 +1,6 @@
+setup.py
+Chiron_DZ9_Spindle_Temperature_Forecasting.egg-info/PKG-INFO
+Chiron_DZ9_Spindle_Temperature_Forecasting.egg-info/SOURCES.txt
+Chiron_DZ9_Spindle_Temperature_Forecasting.egg-info/dependency_links.txt
+Chiron_DZ9_Spindle_Temperature_Forecasting.egg-info/requires.txt
+Chiron_DZ9_Spindle_Temperature_Forecasting.egg-info/top_level.txt

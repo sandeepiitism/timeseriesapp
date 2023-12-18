@@ -1,0 +1,50 @@
+{
+  "build": "boschca_haa95532_0",
+  "build_number": 0,
+  "channel": "https://rb-artifactory.bosch.com/artifactory/conda-virtual/bosch-ca-injected/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\ProgramData\\conda-pkgs\\ca-certificates-2022.10.11-boschca_haa95532_0",
+  "features": "bosch-ca",
+  "files": [
+    "Library/ssl/cacert.pem",
+    "Library/ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2022.10.11-boschca_haa95532_0.tar.bz2",
+  "license": "MPL-2.0",
+  "license_family": "Other",
+  "link": {
+    "source": "C:\\ProgramData\\conda-pkgs\\ca-certificates-2022.10.11-boschca_haa95532_0",
+    "type": 1
+  },
+  "md5": "ad5a304d8d8ffdfad4cd8c3eca465e3d",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "C:\\ProgramData\\conda-pkgs\\ca-certificates-2022.10.11-boschca_haa95532_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "8dcd0d85a94af503ac33e48699f6ad57b5670b560bc0a4dc5a6e35a035998a06",
+        "sha256_in_prefix": "8dcd0d85a94af503ac33e48699f6ad57b5670b560bc0a4dc5a6e35a035998a06",
+        "size_in_bytes": 239553
+      },
+      {
+        "_path": "Library/ssl/cert.pem",
+        "path_type": "hardlink",
+        "sha256": "2cff03f9efdaf52626bd1b451d700605dc1ea000c5da56bd0fc59f8f43071040",
+        "sha256_in_prefix": "2cff03f9efdaf52626bd1b451d700605dc1ea000c5da56bd0fc59f8f43071040",
+        "size_in_bytes": 225403
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ee14064beaaeaaed18ea871160f5b0c4b422d99aad9c608ae1dbfb5e8c2df6c7",
+  "size": 175970,
+  "subdir": "win-64",
+  "timestamp": 1666896238945,
+  "track_features": "",
+  "url": "https://anu9rng:AP6eY5xuhS1MqAdy5jedftw3ndQq7MHjXL8Rpb@rb-artifactory.bosch.com/artifactory/conda-virtual/bosch-ca-injected/win-64/ca-certificates-2022.10.11-boschca_haa95532_0.tar.bz2",
+  "version": "2022.10.11"
+}

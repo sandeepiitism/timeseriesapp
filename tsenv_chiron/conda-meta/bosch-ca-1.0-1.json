@@ -1,0 +1,32 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://rb-artifactory.bosch.com/artifactory/conda-virtual/bosch-ca-injected/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\ProgramData\\conda-pkgs\\bosch-ca-1.0-1",
+  "features": "",
+  "files": [],
+  "fn": "bosch-ca-1.0-1.tar.bz2",
+  "link": {
+    "source": "C:\\ProgramData\\conda-pkgs\\bosch-ca-1.0-1",
+    "type": 1
+  },
+  "md5": "3a5fadf2d3e09661017355e85d037b6b",
+  "name": "bosch-ca",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\ProgramData\\conda-pkgs\\bosch-ca-1.0-1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "bosch-ca",
+  "sha256": "01df42bdf05ebf2d170248c610e1ace8a5f2bbc899bd2fc80e3e5bbd8a08ce26",
+  "size": 2037,
+  "subdir": "noarch",
+  "timestamp": 1578417551009,
+  "track_features": "bosch-ca",
+  "url": "https://anu9rng:AP6eY5xuhS1MqAdy5jedftw3ndQq7MHjXL8Rpb@rb-artifactory.bosch.com/artifactory/conda-virtual/bosch-ca-injected/noarch/bosch-ca-1.0-1.tar.bz2",
+  "version": "1.0"
+}
